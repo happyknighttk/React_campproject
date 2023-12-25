@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import { Menu } from 'semantic-ui-react'
 
 export default function
@@ -6,7 +7,7 @@ export default function
 	return (
 		<div>
 			<Menu pointing vertical>
-				<Menu.Item
+				<Menu.Item as={NavLink} to="/"
 					name='home'
 				/>
 				<Menu.Item
