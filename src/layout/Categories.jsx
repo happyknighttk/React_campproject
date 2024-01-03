@@ -10,8 +10,8 @@ export default function
 				<Menu.Item as={NavLink} to="/"
 					name='home'
 				/>
-				<Menu.Item
-					name='messages'
+				<Menu.Item as={NavLink} to="/product/add"
+					name='add-product'
 				/>
 				<Menu.Item
 					name='friends'
